@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Never Miss</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <!-- Home -->
+  <!-- Header -->
+<section id="home">
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="Image/SLogo.png" alt="NeverMiss Logo">
+ 
+      <h1 style="font-size: 40px;">Never Miss</h1>
+  </div>
+
+  <h3>Never miss a dose again.</h3>
+
+  <p>We are building a simple solution to help people with chronic illnesses stay on track with their medications.</p>
+</section>
+
+
+  <!-- Product -->
+  <section id="product">
+    <h2>Our Product</h2>
+    <p>Our system is made of two parts:</p>
+    <ul>
+      <li>A mobile app to enter medications, times, and choose a color for each.</li>
+      <li>A wearable bracelet that lights up in the right color when it’s time for the dose.</li>
+    </ul>
+    <p><strong>Made especially for elderly users: no screen, no stress.</strong></p>
+    <p><em>Want to try the app?</em></p>
+    <p>🔽 Scan this QR code to download it.</p>
+  </section>
+
+  <!-- Buy the Bracelet Section -->
+<section id="buy">
+  <h2>Buy the Bracelet</h2>
+  <p>Want to try our reminder bracelet? Order it online and get it delivered to your doorstep.</p>
+
+  <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+    <img src="Image/bracelet.png" alt="Reminder Bracelet" style="width: 200px; border-radius: 10px;">
+
+    <div>
+      <p><strong>Price:</strong> 200 EGP</p>
+      <p><strong>Color options:</strong> White / Grey / Beige</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 30px;">Order Form</h3>
+  <form>
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="address">Delivery Address:</label><br>
+    <input type="text" id="address" name="address"><br><br>
+
+    <label for="color">Choose Color:</label><br>
+    <select id="color" name="color">
+      <option value="black">White</option>
+      <option value="black">Grey</option>
+      <option value="beige">Beige</option>
+    </select><br><br>
+
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
+
+    <button type="submit">Place Order</button>
+  </form>
+</section>
+
+  <!-- Feedback Section -->
+  <section id="feedback">
+    <h2>We'd love your feedback!</h2>
+    <p>If you have thoughts, questions, or suggestions — let us know. Just fill the form below and hit send.</p>
+
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="message">Your Feedback:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p>Thank you for supporting Never Miss!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Never Miss — All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
